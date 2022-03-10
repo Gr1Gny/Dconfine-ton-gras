@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dconfine ton gras</string>
+    <string name="connexion_name">Connectez-vous</string>
+    <string name="mail">E-mail</string>
+    <string name="mdp">Mot de passe</string>
+
+    <string name="bonjour_utilisateur">Bonjour Utilisateur!</string>
+    <string name="calo">Voici le nombre de calories que tu as dépensé:</string>
+
+    <string name="titreExercice">Exercice</string>
+    <string name="Pompe">Pompe</string>
+    <string name="serie">Répétitions: 4 x 10</string>
+    <string name="tp">Temps de pause: 30 secondes</string>
+    <string name="repetitions">Répétitions: 4 x 10</string>
+    <string name="bouton">Commencer</string>
+    <string name="boutonRetour">Retour</string>
+</resources>

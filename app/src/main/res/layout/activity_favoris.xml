@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".favoris"
+    android:background="#373740">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="633dp"
+        android:layout_margin="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/home"
+            app:tint="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/altere"
+            app:tint="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/star"
+            app:tint="#f8b978" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/compte"
+            app:tint="#FFFFFF" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
